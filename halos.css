@@ -1,0 +1,121 @@
+
+html { width: 100%; height: 100%; }
+body { width: 100%; height: 100%; margin: 0; }
+svg {
+	position: fixed; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%;
+	background-color: black;                          
+}
+
+#halo_plot .halo {
+	stroke: none;
+}
+#halo_plot .halo.selected {
+	stroke: white;
+	stroke-width: 1px;
+}
+
+#tooltip-halo {
+	text-anchor: left;
+	font-family: "Courier New", Courier;
+	font-size: 18px;
+	fill: white;
+}
+
+#my-title {
+	text-anchor: left;
+	font-family: "Courier New", Courier;
+	font-size: 36px;
+	fill: white;
+}
+
+#selection_arc {
+	stroke: none;
+	fill: white;
+	opacity: 0.3;
+}
+#selection_arc:hover {
+	opacity: 0.6;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: white;
+    /*shape-rendering: crispEdges;*/
+}
+.axis text {
+	fill: white;
+    font-family: sans-serif;
+	font-family: "Courier New", Courier;
+    font-size: 14px;
+}
+.axis text.label {
+	font-size: 16px;
+}
+
+text {
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+}
+
+#mass_hist .bar {
+	stroke: none;
+	fill: yellow;
+	opacity: 0.7;
+}
+#mass_hist .bar.selected {
+	opacity: 1.0;
+}
+
+
+
+
+h .extent {
+
+	  stroke: #fff;
+	  fill: white;  
+	  fill-opacity: .125;
+		  shape-rendering: crispEdges;
+
+}
+
+
+
+
+
+
+/*
+rect.selection {
+    stroke          : gray;
+    stroke-dasharray: 4px;
+    stroke-opacity  : 0.5;
+    fill            : transparent;
+}
+
+g.state circle {
+    stroke  : gray;
+    cursor  : pointer;
+}
+
+g.state circle.inner {
+    fill    : white;
+}
+
+g.state circle.outer {
+    display         : none;
+    stroke-dasharray: 4px;
+    stroke-opacity  : 0.5;
+    fill            : transparent;
+}
+
+g.state.selected circle.outer {
+    display         : inline;
+}
+
+g.state text {
+    font                : 12px sans-serif;
+    font-weight         : bold;
+    pointer-events      : none;
+}
+*/
